@@ -1,0 +1,80 @@
+/* BODY */
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 150%;
+margin: 0;
+padding: 0;
+}
+
+/* HEADER */
+header {
+background-color: #4CAF50;
+padding: 10px;
+}
+
+/* NAV */
+nav {
+background-color: #333;
+padding: 10px;
+display: inline-block;
+width: 80%;
+}
+
+/* MAIN */
+main {
+background-color: #f4f4f4;
+font-size: 18px;
+padding: 15px;
+}
+
+/* FOOTER */
+footer {
+background-color: #222;
+color: white;
+text-align: center;
+padding: 10px;
+}
+
+/* Homework 1 li rule commented out */
+/*
+li {
+display: inline-block;
+width: 120px;
+}
+*/
+
+/* H1 */
+h1 {
+text-align: center;
+font-family: Georgia, serif;
+color: #2c3e50;
+}
+
+/* P */
+p {
+line-height: 1.6;
+}
+
+/* Homework 2 */
+
+nav img {
+width: 10%;
+}
+
+.grid {
+display: grid;
+grid-template-columns: 40% 40%;
+justify-content: space-around;
+align-items: start;
+row-gap: 20px;
+}
+
+.grid img {
+width: 100%;
+}
+
+.flex {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
